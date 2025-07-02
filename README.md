@@ -35,7 +35,7 @@ To solve this, we propose a **custom-optimized Faster R-CNN framework** integrat
 
 > **Architecture Overview:**
 
-               ![image](https://github.com/user-attachments/assets/32dcca1a-0fea-4d54-b4d6-160d18737897)
+  ![image](https://github.com/user-attachments/assets/32dcca1a-0fea-4d54-b4d6-160d18737897)
 
 
 *The architecture utilizes ResNet50 and FPN for multi-scale feature extraction, enhanced by weight mapping and corner-aware ROIs. Activations are refined using Swish + Tanh, and the final layer detects and classifies ships in SAR scenes.*
@@ -46,7 +46,7 @@ To solve this, we propose a **custom-optimized Faster R-CNN framework** integrat
 
 > **Performance Visuals:**
 
-               ![image](https://github.com/user-attachments/assets/5062078a-59c6-4b1e-9655-74ac6b13d984)
+![image](https://github.com/user-attachments/assets/5062078a-59c6-4b1e-9655-74ac6b13d984)
 
 - **Detection Rate:** High accuracy for small and partially occluded ships
 - **Real-time Capability:** Moderate FPS for real-time monitoring tasks
