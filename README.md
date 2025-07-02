@@ -35,7 +35,7 @@ To solve this, we propose a **custom-optimized Faster R-CNN framework** integrat
 
 > **Architecture Overview:**
 
-![image](https://github.com/user-attachments/assets/32dcca1a-0fea-4d54-b4d6-160d18737897)
+               ![image](https://github.com/user-attachments/assets/32dcca1a-0fea-4d54-b4d6-160d18737897)
 
 
 *The architecture utilizes ResNet50 and FPN for multi-scale feature extraction, enhanced by weight mapping and corner-aware ROIs. Activations are refined using Swish + Tanh, and the final layer detects and classifies ships in SAR scenes.*
@@ -46,7 +46,7 @@ To solve this, we propose a **custom-optimized Faster R-CNN framework** integrat
 
 > **Performance Visuals:**
 
-![image](https://github.com/user-attachments/assets/5062078a-59c6-4b1e-9655-74ac6b13d984)
+               ![image](https://github.com/user-attachments/assets/5062078a-59c6-4b1e-9655-74ac6b13d984)
 
 - **Detection Rate:** High accuracy for small and partially occluded ships
 - **Real-time Capability:** Moderate FPS for real-time monitoring tasks
@@ -112,3 +112,57 @@ To solve this, we propose a **custom-optimized Faster R-CNN framework** integrat
 ```bash
 git clone https://github.com/yourusername/ship-detection-sar.git
 cd ship-detection-sar
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+
+3. Update paths in the notebook:
+```python
+train_image_dir = "path/to/train_v2"
+test_image_dir = "path/to/test_v2"
+csv_path = "train_ship_segmentations_v2.csv"
+
+4. Launch the notebook:
+```bash
+jupyter notebook "ship_detection using satellite imagery.ipynb"
+
+---
+
+## 📈 Performance Metrics
+
+* **Precision**: XX.XX%
+* **Recall**: XX.XX%
+* **FPS (Frames per Second)**: Moderate (\~XX FPS)
+* **Per-Image Time**: \~XX ms/image
+
+> *(Refer to tables in your presentation for comparison with Faster R-CNN, YOLO, FCOS, RetinaNet, etc.)*
+
+---
+
+## 🙏 Acknowledgments
+
+We would like to express our sincere gratitude to **Dr. Poonkodi M** for her unwavering guidance and mentorship throughout the project. We also thank **VIT, Chennai** for their support and platform for research.
+
+---
+
+## 🧾 License
+
+This repository and codebase are provided for **academic and research use only**. For commercial licensing or extended use, please contact the authors.
+
+---
+
+## 🔗 Citation
+
+```bibtex
+R. Tiruveedhula and M. P, "Ship Detection using SAR Images for Maritime Vigilance," 2025 International Conference on Data Science, Agents & Artificial Intelligence (ICDSAAI), Chennai, India, 2025, pp. 1-6, doi: 10.1109/ICDSAAI65575.2025.11011861. keywords: {Surveillance;Image edge detection;Feature extraction;Real-time systems;Radar polarimetry;Security;Marine vehicles;Particle swarm optimization;Synthetic aperture radar;Synthetic aperture radar (SAR);Edge Detection;Feature Extraction Algorithm;Euclidian Distance},
+```
+
+
+
+
+
+
+
+
+
