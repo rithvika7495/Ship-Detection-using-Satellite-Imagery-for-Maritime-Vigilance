@@ -89,7 +89,7 @@ To solve this, we propose a **custom-optimized Faster R-CNN framework** integrat
 
 ## 🗃️ Dataset
 
-- **Source:** Kaggle Airbus Ship Detection Dataset
+- **Source:** Ship Detection Dataset
 - **Imagery:** SAR-based oceanic satellite images
 - **Labels:** Run-Length Encoded (RLE) segmentation masks
 - **Resolution:** 768×768 pixels (per image)
