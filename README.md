@@ -13,7 +13,7 @@ This project was presented at the **International Conference on Data Science, Ag
 - 👨‍🏫 **Guided & Contributed by:** *Dr. Poonkodi M*  
 - 🏫 **Affiliation**: Vellore Institute of Technology, Chennai  
 - 📍 **Conference**: International Conference on Data Science, Agents, and Artificial Intelligence (ICDSAAI 2025)  
-- 📅 **Date**: March 28–29, 2025  
+- 📅 **Date**: March 29, 2025  
 - 🔗 **DOI**: 10.1109/ICDSAAI65575.2025.11011861
 
 ---
