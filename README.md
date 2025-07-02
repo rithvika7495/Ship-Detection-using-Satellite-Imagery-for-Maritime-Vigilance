@@ -87,7 +87,7 @@ To solve this, we propose a **custom-optimized ResNet50 framework** integrated w
 
 ## 🗃️ Dataset
 
-- **Source**: Ship Detection Dataset (Airbus/Kaggle)  
+- **Source**: Ship Detection Dataset 
 - **Image Type**: SAR (Synthetic Aperture Radar)  
 - **Labels**: Run-Length Encoded (RLE) binary segmentation masks  
 - **Resolution**: 768 × 768 pixels per image
